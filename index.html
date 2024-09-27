@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies Favorites</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>  
+  <div id="app">
+    <header>
+      <h1>Filmes preferidos</h1>
+      <div class="search">
+        <label class="sr-only" for="input-search"> Procure seu filme</label>
+        <input type="text" id="input-search" placeholder="Procure seu filme">
+        <button>&plus;</button>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>Filme</th>
+          <th>Data de Lançamento</th>
+          <th>Popularidade</th>
+          <th>Nota</th>
+          <th>Sua nota</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="movie">
+            <a href="https://github.com/keewonf">
+              <img src="https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" alt="Foto do Filme">
+              <p>Harry Potter</p>
+            </a>
+          </td>
+          <td class="genre">
+            Suspense
+          </td>
+          <td>
+            <span>1</span>
+            <span>:</span>
+            <span>30</span>
+          </td>
+          <td>
+            <span>7</span>
+            <span>.</span>
+            <span>1</span>
+          </td>
+          <td>
+            <span>7</span>
+            <span>.</span>
+            <span>1</span>
+          </td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="movie">
+            <a href="https://github.com/keewonf">
+              <img src="https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" alt="Foto do Filme">
+              <p>Harry Potter</p>
+            </a>
+          </td>
+          <td class="genre">
+            Suspense
+          </td>
+          <td>
+            <img src="./Star-Icon-by-arus-3-580x386-removebg-preview.png" alt="Imagem Estrela">
+            <span>1</span>
+            <span>:</span>
+            <span>30</span>
+          </td>
+          <td>
+            <span>7</span>
+            <span>.</span>
+            <span>1</span>
+          </td>
+          <td>
+            <span>7</span>
+            <span>.</span>
+            <span>1</span>
+          </td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
